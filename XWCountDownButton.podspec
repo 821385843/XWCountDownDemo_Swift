@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XWCountDownButton"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "XWCountDownButton 是一个应用于倒计时的框架！"
   s.swift_version = '4.2'
   s.description  = <<-DESC
