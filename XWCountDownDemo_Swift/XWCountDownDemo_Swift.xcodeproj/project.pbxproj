@@ -12,6 +12,7 @@
 		5D84182821DF0633004C7C07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84182621DF0633004C7C07 /* Main.storyboard */; };
 		5D84182A21DF0634004C7C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D84182921DF0634004C7C07 /* Assets.xcassets */; };
 		5D84182D21DF0634004C7C07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D84182B21DF0634004C7C07 /* LaunchScreen.storyboard */; };
+		5D84183521DF0CBB004C7C07 /* XWCountDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84183421DF0CBB004C7C07 /* XWCountDownButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5D84182921DF0634004C7C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D84182C21DF0634004C7C07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D84182E21DF0634004C7C07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D84183421DF0CBB004C7C07 /* XWCountDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWCountDownButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5D84182121DF0633004C7C07 /* XWCountDownDemo_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5D84183621DF0CEA004C7C07 /* XWCountDownButton */,
 				5D84182221DF0633004C7C07 /* AppDelegate.swift */,
 				5D84182421DF0633004C7C07 /* ViewController.swift */,
 				5D84182621DF0633004C7C07 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				5D84182E21DF0634004C7C07 /* Info.plist */,
 			);
 			path = XWCountDownDemo_Swift;
+			sourceTree = "<group>";
+		};
+		5D84183621DF0CEA004C7C07 /* XWCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				5D84183421DF0CBB004C7C07 /* XWCountDownButton.swift */,
+			);
+			path = XWCountDownButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D84183521DF0CBB004C7C07 /* XWCountDownButton.swift in Sources */,
 				5D84182521DF0633004C7C07 /* ViewController.swift in Sources */,
 				5D84182321DF0633004C7C07 /* AppDelegate.swift in Sources */,
 			);
