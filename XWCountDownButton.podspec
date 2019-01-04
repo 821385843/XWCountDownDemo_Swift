@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XWCountDownButton"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "XWCountDownButton 是一个应用于倒计时的框架！"
   s.swift_version = '4.2'
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ XWCountDownButton 是一个应用于倒计时的框架，应用场景很多，�
   s.homepage     = "https://github.com/821385843/XWCountDownDemo_Swift"
   s.license      = "MIT"
   s.author             = { "Wade" => "821385843@qq.com" }
-  s.platform     = :ios, "8.0"
+  s.ios.deployment_target = '8.0'
   s.source       = { :git => "https://github.com/821385843/XWCountDownDemo_Swift.git", :tag => "#{s.version}" }
   s.source_files  = "XWCountDownDemo_Swift/XWCountDownDemo_Swift/XWCountDownButton/*.swift"
   s.ios.frameworks         = 'UIKit', 'Foundation'
