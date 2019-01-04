@@ -1,4 +1,4 @@
-XWCountDownButton_Swift
+XWCountDownButton
 
 ## 效果图：
 
@@ -18,11 +18,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-XWCountDownButton_Swift is available through [CocoaPods](https://cocoapods.org). To install
+XWCountDownButton is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XWCountDownButton_Swift'
+pod 'XWCountDownButton'
 ```
 
 ## Author
@@ -31,4 +31,4 @@ pod 'XWCountDownButton_Swift'
 
 ## License
 
-XWCountDownButton_Swift is available under the MIT license. See the LICENSE file for more info.
+XWCountDownButton is available under the MIT license. See the LICENSE file for more info.
