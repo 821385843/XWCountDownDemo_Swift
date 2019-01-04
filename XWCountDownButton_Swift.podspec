@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "XWCountDownButton"
+  s.name         = "XWCountDownButton_Swift"
   s.version      = "1.0.0"
-  s.summary      = "XWCountDownButton 是一个应用于倒计时的框架！"
+  s.summary      = "XWCountDownButton_Swift 是一个应用于倒计时的框架！"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-XWCountDownButton 是一个应用于倒计时的框架，应用场景很多，比如短信验证码倒计时！
+XWCountDownButton_Swift 是一个应用于倒计时的框架，应用场景很多，比如短信验证码倒计时！
                    DESC
 
   s.homepage     = "https://github.com/821385843/XWCountDownDemo_Swift"
@@ -90,7 +90,7 @@ XWCountDownButton 是一个应用于倒计时的框架，应用场景很多，�
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-    s.source_files  = "XWCountDownDemo_Swift⁩/XWCountDownDemo_Swift⁩/XWCountDownButton/*.swift"
+    s.source_files  = "XWCountDownDemo_Swift/XWCountDownDemo_Swift/XWCountDownButton/*.swift"
   #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
